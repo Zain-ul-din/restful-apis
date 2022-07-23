@@ -1,0 +1,16 @@
+{
+  "name": "github-apis",
+  "version": "1.0.0",
+  "description": "apis non-offical apis",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1"
+  }
+}
