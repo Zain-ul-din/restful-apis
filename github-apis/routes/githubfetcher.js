@@ -22,6 +22,6 @@ async function get (req , res) {
 
 // user-repositories-list
 gitHubFetcher
-.get ('/' , (req , res) => res.send ('url/fetch?url=<github url : any>/'))
+.get ('/' , (req , res) => res.send ('How to use : URL/fetch?url= your githubURL/'))
 .get ('/fetch/' , get)
 

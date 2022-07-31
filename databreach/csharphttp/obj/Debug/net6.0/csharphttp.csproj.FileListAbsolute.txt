@@ -1,0 +1,15 @@
+D:\Temp\pyapi\csharphttp\bin\Debug\net6.0\csharphttp.exe
+D:\Temp\pyapi\csharphttp\bin\Debug\net6.0\csharphttp.deps.json
+D:\Temp\pyapi\csharphttp\bin\Debug\net6.0\csharphttp.runtimeconfig.json
+D:\Temp\pyapi\csharphttp\bin\Debug\net6.0\csharphttp.dll
+D:\Temp\pyapi\csharphttp\bin\Debug\net6.0\csharphttp.pdb
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\csharphttp.csproj.AssemblyReference.cache
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\csharphttp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\csharphttp.AssemblyInfoInputs.cache
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\csharphttp.AssemblyInfo.cs
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\csharphttp.csproj.CoreCompileInputs.cache
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\csharphttp.dll
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\refint\csharphttp.dll
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\csharphttp.pdb
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\csharphttp.genruntimeconfig.cache
+D:\Temp\pyapi\csharphttp\obj\Debug\net6.0\ref\csharphttp.dll

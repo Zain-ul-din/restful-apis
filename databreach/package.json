@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@prisma/client": "^4.1.0",
+    "axios": "^0.21.1",
+    "puppeteer": "^15.4.0",
+    "request": "^2.88.2"
+  },
+  "name": "pyapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "^4.1.0"
+  }
+}
