@@ -7,7 +7,7 @@ starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 
 url = 'https://www.youtube.com/' 
 # "https://github.com/Zain-ul-din/Algo-and-Data-Structures-Road-Map"
-# https://lgu.edu.pk/cs-faculty/
+
 uri = URI.parse(url)
 
 response = Net::HTTP.get_response(uri)

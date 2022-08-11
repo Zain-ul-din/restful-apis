@@ -5,9 +5,8 @@
 */
 
 // js test
-const url = 'https://student.lgu.edu.pk/ReportViewerWebForm.aspx'
 
-
+const url = require ('./URL');
 const axios = require('axios');
 const puppeteer = require('puppeteer');
 
