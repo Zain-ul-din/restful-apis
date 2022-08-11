@@ -8,7 +8,7 @@ start = time.time()
 
 
 print ('start')
-url = 'https://student.lgu.edu.pk/Profile/Index' # checkout
+url = '' # checkout
 
 res = requests.get (url)
 
