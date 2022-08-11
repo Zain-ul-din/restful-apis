@@ -80,16 +80,17 @@ async function scrappper () {
   // Std Roll No:
   // end
 
-  
+  // console.log ('data' , data)
 
   let filterData = []
 
-  let start = 'Std Roll No:'
+  let start = 'Roll No               :' // set start here
   let canInsert = false
   
   for ( let {text , label}  of data) {
+    
     if (start === text)  canInsert = true
-    if (text.length > 50) break
+    if (text.length > 80) break
     if (canInsert) 
       filterData.push (
         text.trim().at (text.length - 1) === ':' 
@@ -102,24 +103,25 @@ async function scrappper () {
  
   for (let i = 0 ; i < filterData.length ; i += 1) {
     // finalRecord.push ({key : filterData [i] , val : filterData[i+1] })
-    finalRecord[filterData[i].replaceAll (' ' , '')] = filterData [i + 1]
+    finalRecord[filterData[i].replaceAll (' ' , '')] = filterData [i + 1].trim()
     i += 1
   }
   
-    console.log (finalRecord)
+  console.log (finalRecord)
 
-    if (finalRecord.StdRollNo === undefined) throw new Error ('fee defaulter !!') 
+  // also change here
+  if (finalRecord.RollNo === undefined) throw new Error ('fee defaulter !!') 
     
     // stores to database
-    async function storeToPrismaInstance () {
+  async function storeToPrismaInstance () {
       try {
        const addRec = await db.data.create ({
         data : {
-          rollNo : finalRecord.StdRollNo.replaceAll(' ' , '') ,
-          name : finalRecord.Name ,
-          fName : finalRecord.FatherName ,
-          section : finalRecord.Section ,
-          cnic : finalRecord.CNIC.replaceAll ('-' , '')
+          rollNo : finalRecord.RollNo.replaceAll(' ' , '').trim() ,
+          name : finalRecord.StudentName.trim() ,
+          fName : finalRecord.FatherName.trim() , // change here
+          section : finalRecord.Section.trim() ,
+          // cnic : finalRecord.CNIC.replaceAll ('-' , '')
         }
        })
        console.log ( '\n' ,addRec , '\n Added to db \n')

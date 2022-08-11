@@ -16,6 +16,6 @@ model Data {
    name String @db.Char (50) 
    fName String @db.Char (50) 
    section String @db.Char(2)
-   cnic String @db.Char (13) @unique
+  //  cnic String @db.Char (13) @unique
 }
 
